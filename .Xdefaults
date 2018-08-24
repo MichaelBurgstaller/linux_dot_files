@@ -1,0 +1,72 @@
+URxvt.iso14755: false
+URxvt.iso14755_53: true
+URxvt.saveLines: 1000000
+URxvt.scrollBar: false
+URxvt.secondaryScroll: true
+URxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=12
+URxvt.perl-ext-common: default,matcheri,clipboard
+URxvt.urlLauncher: /usr/bin/chromium
+URxvt.matcher.button: 1
+URxvt.tabbed.saveLines: 1000000
+URxvt.tabbed.scrollBar: false
+URxvt.tabbed.tabbar-fg: 3
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 1
+URxvt.tabbed.secondaryScroll: true
+URxvt.tabbed.font: xft:Bitstream Vera Sans Mono:pixelsize=12
+URxvt*inheritPixmap: true 
+URxvt*shading: 70
+
+URxvt.keysym.Shift-Up: \033[1;5A
+URxvt.keysym.Shift-Down: \033[1;5B
+URxvt.keysym.Shift-Left: \033[1;5D
+URxvt.keysym.Shift-Right: \033[1;5C
+
+URxvt*jumpScroll:           true
+URxvt*skipScroll:           false
+URxvt*scrollTtyOutput:      true
+URxvt*scrollTtyKeypress:    false
+URxvt*scrollWithBuffer:     false
+URxvt*mouseWheelScrollPage: false
+
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+
+! special
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
+↑
