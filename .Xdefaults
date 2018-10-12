@@ -7,7 +7,7 @@ URxvt.scrollBar: false
 URxvt.secondaryScroll: true
 URxvt.font: xft:CtrlD:style=Regular:pixelsize=12
 URxvt.boldFont: xft:CtrlD:style=Regular:pixelsize=12
-URxvt.perl-ext-common: default,matcheri
+URxvt.perl-ext-common: default,matcher
 URxvt.urlLauncher: /usr/bin/chromium
 URxvt.matcher.button: 1
 URxvt.tabbed.saveLines: 1000000
