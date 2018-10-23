@@ -19,7 +19,6 @@ set tabstop=2
 set shiftwidth=2
 set number
 set hlsearch
-set cursorline
 set nostartofline
 set foldenable
 set foldmethod=indent
@@ -82,10 +81,3 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-"YouCompleteMe settings
-"================================================================
-set completeopt-=preview
-
-let g:ycm_max_num_candidates = 30
-let g:ycm_add_preview_to_completeopt = 0

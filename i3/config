@@ -188,7 +188,5 @@ bindsym F2 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym F3 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
 
 # window config
-for_window [class="^.*"] border pixel 1
-new_window 1pixel
-for_window [class="[.]*"] floating enable border normal
-for_window [window_role="pop-up"] floating enable border normal
+for_window [class="[.]*"] enable border normal
+for_window [window_role="pop-up"] enable border normal
